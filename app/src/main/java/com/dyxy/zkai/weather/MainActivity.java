@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.bg_image)
     ImageView bgImage;
     private String TAG = "MainActivity";
+    //测试github
 
     private MyService.GetWeather getWeather;
     private ServiceConnection connection = new ServiceConnection() {
